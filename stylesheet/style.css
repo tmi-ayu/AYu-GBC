@@ -1,0 +1,189 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    background-color: #9BBCCB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 2px;
+    padding-bottom: 4px;
+    padding-right: 27px;
+    width:auto;
+}
+a {
+    font-size: 20px;
+    color: #17344E;
+    text-decoration: none;
+    border: 30px;
+    padding: 6px;
+    border-radius: 30px;
+    border-color: #0a1d2e;
+    border-width: 2px;
+    border-style: groove;
+}
+
+/*wanted to customize my navigation menu so it looks like buttons. applied display: flex to have all the links on the same line*/
+
+footer {
+    font-size: 15px;
+    color: #743fcb;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+
+/*wanted my footer to be a nice color and in center*/
+
+.marqueemov{
+    display: flex;
+    animation-name: tishishugu;
+    animation: tishishugu 60s left;
+}
+@keyframes tishishugu{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50);
+    }
+}
+.home{
+    margin-right: 100px;
+    padding-right: 100px;
+    margin-top: 70px;
+}
+
+/*spent the most time here. I wanted my "text" to fly across the screen infinitely and evenly spaced. */
+
+.gif{
+    align-content: center;
+    text-align: center;
+}
+
+/*aligned my gif to center*/
+
+.work{
+    display: flex;
+    animation-name: past work;
+    animation: w2e 60s left;
+}
+@keyframes work{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50);
+    }
+}
+
+/*tried to figure out the animations in css and afraid that it simply didn't work*/
+
+.meow{
+    margin-right: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+}
+.meow:hover{
+    width: 22%;
+    transition: transform 1s;
+    transform: translateZ(20px);
+}
+
+/*wanted to have a hover animation for my images of past work*/
+
+h2{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+div p{
+    font-size: 20px;
+    width: 50%;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 25px;
+    color: #545158;
+    text-decoration: none;
+    border: 30px;
+    padding: 35px;
+    border-radius: 30px;
+    border-color: #a88bee;
+    border-width: 2px;
+    border-style: groove;
+
+}
+
+/*wanted the paragraph to have the same "button style" as the header links*/
+
+.about{
+    display: flex;
+    column-gap: 5px;
+}
+.about img{
+    margin-left: 70px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+}
+
+/*tried to make the image even size with the text and make it look evenly spaced*/
+
+.width{
+    width: 220%;
+}
+
+/*wanted the paragraph to look bigger*/
+
+h3{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+    text-align: center;
+    color: #BAD6ED;
+}
+
+/*wanted to customize my title a little bit by adding a different color*/
+
+.contact{
+    display: flex;
+    height: 400px;
+    margin-top: 100px;
+    align-items: center;
+    padding-left: 300px;
+}
+div h2{
+    margin-left: 80px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    column-gap: 440px;
+    margin-top: 0px;
+    margin-bottom: 300px;
+    padding-left: 50px;
+}
+
+/*i wantedt to make the icons look evenly spaced out and around the same size*/
+
+div a{
+    text-decoration: none;
+    border: none;
+}
+
+/*since we already applied decorations to our header links, i changed it to have to decorations for the content page*/
